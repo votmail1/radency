@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+</head>
+<body>
+<div class="container ">
+    <div class="row listHeader">
+        <div class="notesIcon"></div>
+        <div class="notesName">Name</div>
+        <div class="notesCreated">Created</div>
+        <div class="notesCategory">Category</div>
+        <div class="notesContent">Content</div>
+        <div class="notesDates">Dates</div>
+        <div class="notesEdit"></div>
+        <div class="notesArchive"><img class="icon" src="img/archive-light.svg"></div>
+        <div class="notesDelete"><img class="icon" src="img/basket-lihgt.svg"></div>
+    </div>
+    <div class="notesList"></div>
+</div>
+<div class="container createButton">
+    <button>Create note</button>
+    <label>Show / Hide Archived</label>
+    <input type="checkbox" class="archivedVisibility">
+</div>
+<div class="container ">
+    <div class="row listHeader">
+        <div class="notesIcon"></div>
+        <div class="summaryNotesCategory">Note Category</div>
+        <div class="summaryActive">Active</div>
+        <div class="summaryArchived">Archived</div>
+    </div>
+    <div class="summaryNotesList"></div>
+</div>
+<div class="modal hidden">
+    <div class="boxWrapper" style='height: 600px;'>
+        <div class="warning hidden"></div>
+        <div class="box"></div>
+    </div>
+</div>
+<script src="data/data.js"></script>
+<script src="./componets/NotesRow.js"></script>
+<script src="./componets/SummaryNotesRow.js"></script>
+<script src="./componets/EditableNote.js"></script>
+<script src="./componets/NewNoteForm.js"></script>
+<script src="./data/functions.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
