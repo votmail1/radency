@@ -4,3 +4,26 @@
 /task-1/.idea
 
 /task-2/.idea
+
+# dependencies
+/task-2/node_modules
+/task-2/.pnp
+/task-2/.pnp.js
+/task-2/.env
+/task-2/.idea
+# testing
+/task-2/coverage
+
+# production
+/task-2/build
+
+# misc
+/task-2/.DS_Store
+/task-2/.env.local
+/task-2/.env.development.local
+/task-2/.env.test.local
+/task-2/.env.production.local
+
+/task-2/npm-debug.log*
+/task-2/yarn-debug.log*
+/task-2/yarn-error.log*
